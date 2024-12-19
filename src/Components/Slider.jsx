@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselSize() {
+ let Slider = function CarouselSize() {
   const dates = [
     { day: "Mon", date: "10 Oct", slots: "10 slots", highlight: "lime" },
     { day: "Tue", date: "11 Oct", slots: "02 slots", highlight: "red" },
@@ -48,3 +48,5 @@ export function CarouselSize() {
     </Carousel>
   );
 }
+
+export default Slider;

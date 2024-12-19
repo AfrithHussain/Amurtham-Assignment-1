@@ -10,7 +10,8 @@ import home from '../assets/homelogo.png'
 import { FaStar } from "react-icons/fa6";
 import UserProfile from '../assets/userprofile.png'
 import UserProfile2 from '../assets/Frame 1000006264 (1).png'
-import {  CarouselSize } from "./Slider";
+import Slider from "./Slider";
+
 
 
 function Hero() {
@@ -229,7 +230,7 @@ function Hero() {
               
                <div className="mx-16 mt-7">
                   {
-                    CarouselSize()
+                    <Slider/>
                   }  
                </div>
 
