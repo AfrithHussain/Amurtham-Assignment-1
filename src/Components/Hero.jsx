@@ -11,14 +11,14 @@ import { FaStar } from "react-icons/fa6";
 import UserProfile from '../assets/userprofile.png'
 import UserProfile2 from '../assets/Frame 1000006264 (1).png'
 
-import { Card, CardContent } from "@/Components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/Components/ui/carousel";
+} from "@/components/ui/carousel";
 
 
 
