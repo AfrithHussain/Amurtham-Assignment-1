@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import ProfileBanner from './components/ProfileBanner'
+import Navbar from './Pages/Navbar'
+import ProfileBanner from './Pages/ProfileBanner'
 
 import { Route,Routes } from 'react-router-dom'
 
